@@ -1,4 +1,3 @@
-require('dotenv').config();
 
 document.querySelector('#search').addEventListener('submit', async (e) => {
     e.preventDefault();
@@ -11,7 +10,7 @@ document.querySelector('#search').addEventListener('submit', async (e) => {
         return;
     }
 
-    const apiKey = process.env.API_KEY;
+    const apiKey = '9dcb60f5a8cd1e99fac877c634ec6589';
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURI(cityName)}&appid=${apiKey}&units=metric&lang=pt_br`
 
     const results = await fetch(apiUrl);
