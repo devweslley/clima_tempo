@@ -46,6 +46,12 @@ body {
     background-color: transparent;
     border: none;
     cursor: pointer;
+
+}
+
+#btn {
+    font-size: 18px;
+    transform: translateY(1px);
 }
 
 #weather {
