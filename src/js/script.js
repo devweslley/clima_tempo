@@ -1,4 +1,3 @@
-
 document.querySelector('#search').addEventListener('submit', async (e) => {
     e.preventDefault();
 
@@ -31,8 +30,7 @@ document.querySelector('#search').addEventListener('submit', async (e) => {
 
     } else {
         document.querySelector('#weather').classList.remove('show');
-        showAlert(`Não foi possível localizar...
-        
+        showAlert(`Não foi possível localizar...  
         <img src="src/images/undraw_Page_not_found_re_e9o6.svg"/>
         `)
     }
