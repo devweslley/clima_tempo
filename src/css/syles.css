@@ -52,6 +52,7 @@ body {
 #btn {
     font-size: 18px;
     transform: translateY(1px);
+    color: black;
 }
 
 #weather {
